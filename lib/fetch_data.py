@@ -1,4 +1,3 @@
-cat > lib/fetch_data.py << 'EOF'
 import requests
 
 
@@ -13,4 +12,3 @@ def fetch_data():
 if __name__ == "__main__":
     post = fetch_data()
     print("Fetched Post Title:", post.get("title", "No title found"))
-EOF
